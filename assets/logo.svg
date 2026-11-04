@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#F43F5E"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="60%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <radialGradient id="tailPulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FEF08A" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#FACC15" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="128" height="128" rx="28" fill="#0B1120"/>
+
+  <!-- Firefly Bioluminescent Pulse Halo (The Coded Closer Signal) -->
+  <circle cx="78" cy="84" r="32" fill="url(#tailPulse)"/>
+
+  <!-- Firefly Wings -->
+  <path d="M 74 62 C 52 44, 34 54, 44 72 C 50 80, 66 76, 74 68 Z" fill="#1E293B" stroke="#38BDF8" stroke-width="2" opacity="0.9"/>
+  <path d="M 82 62 C 104 44, 118 54, 108 72 C 102 80, 88 76, 82 68 Z" fill="#1E293B" stroke="#FDE047" stroke-width="2" opacity="0.9"/>
+
+  <!-- Firefly Body & Glowing Lantern Abdomen -->
+  <rect x="73" y="52" width="10" height="22" rx="5" fill="#F8FAFC"/>
+  <ellipse cx="78" cy="82" rx="8" ry="11" fill="url(#glowGrad)"/>
+
+  <!-- High-Voltage Lightning Bolt (The Rainmaker Strike) -->
+  <path d="M 64 14 L 34 62 L 56 62 L 44 110 L 88 54 L 62 54 Z" fill="url(#boltGrad)" stroke="#F8FAFC" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

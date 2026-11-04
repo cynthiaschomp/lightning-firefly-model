@@ -1,0 +1,12 @@
+{
+  "name": "lfm",
+  "displayName": "Lightning Firefly Model",
+  "version": "1.0.0",
+  "description": "Calibrated Rainmaker (Lightning) & Velvet-Rope Closer (Firefly) subagents for high-voltage demand generation, buyer-attracting hooks, multi-turn DM conversion, objection pre-handling, and closed-loop telemetry with the Rainbow Butterfly Model (RBM).",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Run /lfm-calibrate to set up or recalibrate my Lightning Firefly Rainmaker & Closer profile and conversion pipeline",
+    "Lightning Firefly it! Electrify this offer's hook and engineer the Velvet-Rope DM and checkout close",
+    "Call Firefly to audit my open pipeline and draft the closing bridge for warm leads"
+  ]
+}
